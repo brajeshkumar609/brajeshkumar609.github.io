@@ -1,87 +1,145 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Brajesh Kumar | Cloud & DevOps</title>
-  <meta name="description" content="Portfolio of Brajesh Kumar - Cloud, DevOps, AI/ML & Full-Stack Developer"/>
-  <meta name="keywords" content="Brajesh Kumar, Cloud Engineer, DevOps, Portfolio, AI ML, Developer, GitHub, LinkedIn"/>
+  <title>Brajesh Kumar | Cloud & DevOps Portfolio</title>
+  <meta name="description" content="Portfolio of Brajesh Kumar - Cloud, DevOps, Deployment Engineering & Infrastructure Development"/>
+  <meta name="keywords" content="Brajesh Kumar, DevOps, Cloud, Deployment Engineer, Cognizant, Infrastructure Developer"/>
   <meta name="author" content="Brajesh Kumar"/>
-  <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0; padding: 0;
+      background: #0a0a0a; color: #e5e5e5;
+      line-height: 1.6;
+    }
+    h1, h2, h3 { font-family: 'Orbitron', sans-serif; color: #00c3ff; }
+    a { color: #00c3ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: 90%; max-width: 1200px; margin: auto; }
+    header { 
+      text-align: center; 
+      padding: 50px 20px; 
+      position: relative;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; margin-bottom: 20px; }
+    .social-icons a { margin: 0 10px; font-size: 1.5rem; color: #e5e5e5; }
+    .section { margin: 50px 0; }
+    .tags span {
+      display: inline-block; background: #1a1a1a;
+      padding: 6px 12px; margin: 5px; border-radius: 8px;
+      border: 1px solid #333;
+    }
+    ul { list-style: none; padding: 0; }
+    ul li { margin: 10px 0; }
+    footer { text-align: center; padding: 20px; border-top: 1px solid #333; margin-top: 50px; }
+    .highlight { color: #ffaa00; }
+
+    /* Download Resume Button */
+    .download-btn {
+      position: absolute;
+      top: 20px; right: 20px;
+      background: #00c3ff;
+      color: #0a0a0a;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    .download-btn:hover {
+      background: #ffaa00;
+      color: #0a0a0a;
+    }
+  </style>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Brajesh Kumar",
-    "url": "https://brajeshkumar.site",
-    "jobTitle": "Cloud & DevOps Engineer",
-    "description": "Portfolio of Brajesh Kumar - showcasing skills in Cloud, DevOps, AI/ML and Full Stack Development.",
-    "sameAs": [
-      "https://github.com/brajeshkumar609",
-      "https://linkedin.com/in/brajeshkumar609"
-    ]
-  }
-  </script>
 </head>
 <body>
   <div class="container">
     <header>
+      <!-- Download Button -->
+      <a href="https://drive.google.com/file/d/1_SxcssL274n5mm0bSKgW1vu4y5pAj9NO/view?usp=sharing" target="_blank" class="download-btn">Download Resume</a>
+
       <h1>Brajesh Kumar</h1>
-      <p>Cloud | DevOps | AI/ML | Developer</p>
+      <p>Sr. Infra Developer @ Cognizant | Deployment Engineer | Cloud & DevOps Enthusiast</p>
       <div class="social-icons">
         <a href="mailto:brajeshkumar609@gmail.com"><i class="fas fa-envelope"></i></a>
         <a href="https://github.com/brajeshkumar609" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/brajesh-kumar-a0306715a/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="https://x.com/brajesh_mehto" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/vehli_janta_786/" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
     </header>
 
     <section class="section">
       <h2>About Me</h2>
-      <p>I am a tech enthusiast with 2+ years of experience in support engineering, shifting towards Cloud, DevOps, AI/ML, and full-stack development.</p>
+      <p>
+        I am a <span class="highlight">Sr. Infrastructure Developer at Cognizant</span>, working as a <span class="highlight">Deployment Engineer</span>. 
+        My role revolves around <strong>DevOps practices</strong>, <strong>CI/CD pipelines</strong>, and <strong>infrastructure automation</strong>.
+        With hands-on experience in <strong>cloud platforms</strong> (Azure & GCP), 
+        <strong>containerization</strong> (Docker, Kubernetes), and 
+        <strong>infrastructure as code</strong> (Terraform, Ansible), I bring expertise in deploying, maintaining, and optimizing applications in production.
+      </p>
+      <p>
+        I bridge the gap between <span class="highlight">development and operations</span>, ensuring smooth, automated, and error-free deployments while 
+        maintaining system reliability, scalability, and performance.
+      </p>
     </section>
 
     <section class="section">
-      <h2>Skills</h2>
+      <h2>Technical Skills</h2>
       <div class="tags">
-        <span>GCP</span><span>Azure</span><span>Terraform</span><span>GitHub Actions</span>
-        <span>Docker</span><span>Kubernetes</span><span>Python</span><span>Node.js</span>
-        <span>AI/ML Basics</span><span>Networking</span><span>Linux</span>
+        <span>Azure</span><span>GCP</span><span>Linux</span><span>Windows Server</span>
+        <span>Terraform</span><span>Ansible</span><span>Shell Scripting</span><span>PowerShell</span>
+        <span>Docker</span><span>Kubernetes</span><span>OpenShift</span>
+        <span>Jenkins</span><span>GitHub Actions</span><span>CI/CD</span>
+        <span>SQL</span><span>Networking</span><span>Monitoring (Prometheus/Grafana)</span>
       </div>
     </section>
 
     <section class="section">
-      <h2>Projects</h2>
+      <h2>Role at Cognizant</h2>
       <ul>
-        <li><strong>CI/CD Pipeline (GCP + GitHub):</strong> Automated deploy system using GitHub Actions & Terraform</li>
-        <li><strong>Order System:</strong> Realtime Node.js + Cloud Functions</li>
-        <li><strong>Bot for Service Desk:</strong> Automated support with knowledge base</li>
-        <li><strong>AI Chatbot for Resume:</strong> Static chatbot with HTML/JS for GitHub Pages</li>
+        <li>Deploying and maintaining enterprise applications across multi-cloud environments.</li>
+        <li>Managing <strong>CI/CD pipelines</strong> with Jenkins, GitHub Actions, and Azure DevOps.</li>
+        <li>Writing and maintaining automation scripts in <strong>PowerShell</strong> and <strong>Shell</strong>.</li>
+        <li>Implementing <strong>infrastructure as code</strong> using Terraform and Ansible.</li>
+        <li>Containerizing applications with Docker and orchestrating with Kubernetes/OpenShift.</li>
+        <li>Monitoring and troubleshooting production issues to ensure <span class="highlight">99.9% uptime</span>.</li>
       </ul>
-      <p><a href="https://github.com/brajeshkumar609" target="_blank">Explore all projects on GitHub →</a></p>
+    </section>
+
+    <section class="section">
+      <h2>Key Projects</h2>
+      <ul>
+        <li><strong>End-to-End CI/CD Pipeline:</strong> Automated deployment pipeline integrating GitHub Actions with GCP using Terraform.</li>
+        <li><strong>Multi-Cloud Deployment:</strong> Migrated workloads between Azure and GCP with zero downtime.</li>
+        <li><strong>Containerization Initiative:</strong> Deployed microservices using Kubernetes, reducing deployment time by 60%.</li>
+        <li><strong>Monitoring & Logging Setup:</strong> Implemented Prometheus + Grafana + ELK for observability.</li>
+      </ul>
     </section>
 
     <section class="section">
       <h2>Certifications</h2>
       <ul>
-        <li>Agent 900 - Soft Skills</li>
         <li>Google Cloud Fundamentals</li>
+        <li>Microsoft Azure Basics</li>
         <li>Intro to Kubernetes</li>
+        <li>ITIL & Service Desk Foundations</li>
       </ul>
     </section>
 
     <section class="section">
       <h2>Contact</h2>
       <p><strong>Email:</strong> brajeshkumar609@gmail.com</p>
-      <p><strong>Phone:</strong> 9123269609</p>
+      <p><strong>Phone:</strong> +91 9123269609</p>
       <p><strong>Location:</strong> Kolkata, India</p>
     </section>
 
     <footer>
-      <p>© 2025 Brajesh Kumar</p>
+      <p>© 2025 Brajesh Kumar | Built with ❤️ for Cloud & DevOps</p>
     </footer>
   </div>
 </body>
